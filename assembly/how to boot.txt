@@ -1,0 +1,5 @@
+on qemu dir open cmd and type
+qemu-system-x86_64 -drive format=raw,media=disk,readonly=off,file="C:\Users\mrhitj\Desktop\radnom sfutt\boot.bin"
+
+qemu slitaz with ram size
+qemu-system-x86_64 -drive format=raw,media=disk,readonly=off,file="C:\Users\mrhitj\Documents\iso disk\slitaz-rolling.iso" -m 512M,slots=1,maxmem=1G -drive format=raw,media=disk,readonly=off,file="C:\Users\mrhitj\Documents\iso disk\16MBdisk.img"

@@ -1,0 +1,3 @@
+nasm -f bin file.asm -o <fileoutputname>.bin
+
+nasm -f bin file.asm -o .bin
